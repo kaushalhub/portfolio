@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+
+	transition: all 0.2s ease-in;
+
+}
+a:hover,
+a:focus,
+a:active
+{
+	color: inherit;
+}
+.clear-fix{
+	clear:both;
+}
+.blue-btn a{
+	color: white;
+}
+.blue-btn:hover{
+	background-color: rgba(0,0,0,0);
+	color: blue;
+	}
+.blue-btn:hover a{
+	color: blue;
+}
+.btn{
+	box-sizing: border-box;
+	border-radius:60px;
+	padding: 8px 15px;
+	cursor: pointer;
+	display: inline-block;
+	transition: all 0.2s ease-in;
+
+}
+.blue-btn{
+	border: 1px solid blue;
+	background-color: blue;
+	color:white;
+
+}
+.trans-btn{
+	background-color: rgba(0,0,0,0);
+	
+}
